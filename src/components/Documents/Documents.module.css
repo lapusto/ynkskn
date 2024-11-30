@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   margin-top: -20px;
   margin-bottom: 20px;
+  @media (max-width: 620px) {
+   margin-bottom: 0;
+  }
 }
 
 .file {
@@ -12,14 +15,18 @@
   margin-right: 30px;
   margin-bottom: 30px;
   position: relative;
+  @media (max-width: 620px) {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 .img {
   position: absolute;
   object-fit: cover;
   object-position: center;
-  height: 150px;
-  width: 150px;
+  height: 100%;
+  width: 100%;
   border-radius: 2px;
 }
 

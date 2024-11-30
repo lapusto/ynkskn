@@ -3,6 +3,10 @@
   margin-bottom: 100px;
   text-align: center;
   position: relative;
+  @media (max-width:620px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 .button {
   outline: none;
@@ -19,6 +23,11 @@
   transition: all 0.25s ease;
   font-size: 20px;
   font-weight: 700;
+  @media (max-width:620px) {
+    width: 100%;
+    max-width: 350px;
+    font-size: 16px;
+  }
 }
 .button:hover {
   color: white;

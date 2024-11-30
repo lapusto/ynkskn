@@ -1,18 +1,66 @@
 .header {
   display: flex;
+  flex-direction: column;
+  padding: 50px 30px 0;
+}
+
+.mainHeader {
+  display: flex;
   justify-content: space-between;
-  padding: 80px 80px 0;
+  margin-bottom: 20px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 0;
+  }
 }
 
 .headerText {
   font-size: 54px;
-  padding-top: 70px;
+  padding-top: 20px;
   h1,
   h3 {
     font-weight: 500;
   }
+  @media (max-width: 1500px) {
+    font-size: 34px;
+    padding-top: 0;
+  }
+  @media (max-width: 991px) {
+    font-size: 30px;
+  }
+  @media (max-width: 748px) {
+    font-size: 20px;
+  }
+}
+
+.screen {
+  font-weight: 500;
+  max-width: 600px;
+  font-size: 19px;
+  margin: 40px 20px 0 0;
+  @media (max-width: 1500px) {
+    font-size: 15px;
+    max-width: 450px;
+    margin-top: 30px;
+  }
+  @media (max-width: 991px) {
+    font-size: 14px;
+    margin-top: 16px;
+    max-width: 100%;
+  }
+}
+
+.mainImg {
+  width: 55%;
+  @media (max-width: 991px) {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
 }
 
 .img {
-  max-height: 580px;
+  width: 100%;
+  border-radius: 5px;
 }

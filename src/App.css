@@ -16,4 +16,7 @@
   -webkit-box-shadow: -5px -5px 13px -5px rgba(34, 60, 80, 0.6);
   -moz-box-shadow: -5px -5px 13px -5px rgba(34, 60, 80, 0.6);
   box-shadow: -5px -5px 13px -5px rgba(34, 60, 80, 0.6);
+  @media (max-width: 620px) {
+    width: 94%;
+  }
 }

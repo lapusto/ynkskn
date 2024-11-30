@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 import cls from './ThankYouPage.module.css';
 import React from 'react';
 import sentImg from "./sent1.jpg";
@@ -15,7 +15,6 @@ interface ThankYouPageProps {
 
 export const ThankYouPage: FC<ThankYouPageProps> = ({ isOpen, setActive }) => {
 
- 
     return (
         <div className={cn(cls.wrapper, {
             [cls.open]: isOpen,
