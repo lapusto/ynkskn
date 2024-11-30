@@ -14,7 +14,7 @@
   font-size: 26px;
   margin-bottom: 10px;
   @media (max-width: 991px) {
-  font-size: 16px;
+    font-size: 16px;
   }
 }
 
@@ -30,7 +30,7 @@
   @media (max-width: 991px) {
     font-size: 14px;
     min-height: 30px;
-    }
+  }
 }
 
 .textarea::-webkit-scrollbar {
@@ -46,4 +46,7 @@
   font-size: 16px;
   color: brown;
   margin-top: 4px;
+  @media (max-width: 991px) {
+    font-size: 12px;
+  }
 }

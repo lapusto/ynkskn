@@ -4,6 +4,9 @@
   align-items: flex-end;
   background-color: #dfd3ca;
   color: #443e3d;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .MainContainer {
