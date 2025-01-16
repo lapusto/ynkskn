@@ -59,10 +59,10 @@ export const Form: FC<FormProps> = ({ className, isFormSubmitted, setIsFormSubmi
             <Input id="reference" label="4) Какими словами Вы можете описать тот стиль, который хотели бы получить?" register={register} required errors={errors} />
             <Input id="current" label="5) Что в нынешнем стиле Вам не нравится?" register={register} required errors={errors} />
             <Input id="preferences" label="6) Есть ли какие-то предпочтения по цветам, фасонам, силуэтам?" register={register} required errors={errors} />
-            <Input id="celebrities" label="7) Стиль каких известных людей Вас вдохновляет? Если таких нет, можно прислать фото образов, которые нравятся." register={register} required errors={errors} />
-            <Documents control={control} />
+            <Input id="celebrities" label="7) Стиль каких известных людей Вас вдохновляет?" register={register} required errors={errors} />
+            {/* <Documents control={control} /> */}
             <Input id="brands" label="8) Какие бренды предпочитаете/носите?" register={register} required errors={errors} />
-            <Input id="contacts" label="9) Ваш адрес электронной почты или номер телефона для обратной связи:" register={register} required errors={errors} />
+            <Input id="contacts" label="9) Ваш адрес электронной почты и (или) аккаунт в инстаграм для обратной связи:" register={register} required errors={errors} />
             <SubmitButton isSubmitSuccessful={isSubmitSuccessful} isValid={isValid} setIsFormSubmitted={setIsFormSubmitted} />
         </form>
     );
